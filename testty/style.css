@@ -1,0 +1,147 @@
+body {
+    background-color: #001219 ;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+
+
+  .keyboard {
+    position: relative;
+    height: 200px;
+    padding-top: 5px;
+    padding-right: 60px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .row {
+    list-style: none;
+    height: 35px;
+    display: flex;
+  }
+
+  li {
+    height: 3em;
+    width: 3em;
+    color: rgba(0, 0, 0, 0.7);
+    border-radius: 0.4em;
+    line-height: 3em;
+    letter-spacing: 1px;
+    margin: 0.4em;
+    transition: 0.3s;
+    text-align: center;
+    font-size: 1em;
+  }
+
+  #tab {
+    width: 5em;
+  }
+
+  #caps {
+    width: 6em;
+  }
+
+  #left-shift {
+    width: 8em;
+  }
+
+  #enter {
+    width: 6em;
+  }
+
+  #right-shift {
+    width: 8em;
+  }
+
+  #back {
+    width: 5em;
+  }
+
+  .pinky {
+    background-color: rgb(107, 197, 193) ;
+    border: 2px ;
+  }
+
+
+  .ring {
+    background-color: #4888b7 ;
+    border: 2px ;
+  }
+
+
+  .middle {
+    background-color: #99d7d7 ;
+    border: 2px;
+  }
+
+
+  .pointer1st {
+    background-color: #6dbcb9  ;
+    border: 2px;
+  }
+
+
+  .pointer2nd {
+    background-color: #8cefb6;
+    border: 2px;
+  }
+
+  .fill-out-key {
+    background-color: slategrey;
+    border: 2px solid slategrey;
+  }
+  
+  #display{
+    display: flex;
+    flex-direction: row;
+    color: #19645f;
+  }
+
+  .text-container {
+    /* border: 2px green solid; */
+    width: 70%;
+    height: 80px;
+    padding-bottom: 100px;
+    position: relative;
+    display: grid;
+    overflow: hidden;
+    line-height: 2;
+    background: black;
+    border-radius: 10px;
+    color: grey;
+    box-shadow: 0 0 3px 0 rgb(92, 87, 87);
+  }
+  
+  .input {
+    margin-top: 50px;
+    min-width: 40%;
+    padding: 10px 30px;
+    border-radius: 10px;
+    font-size: 25px;
+    outline: none;
+    color: black;
+    box-shadow: 0 0 3px 0 darkkhaki;
+    border: none;
+  }
+  
+  .text {
+    display: block;
+    position: absolute;
+    /* border: 2px blue solid; */
+    padding: 10px;
+  }
+  
+  span {
+    padding: 6px;
+    border-radius: 5px;
+    margin: 2px;
+  }
+
+
+
