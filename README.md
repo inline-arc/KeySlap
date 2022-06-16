@@ -12,6 +12,6 @@ a simple website to test your limites where you can type code and boost your pro
 
 # inspiration 
 
- this awesoem website - https://typr-steel.vercel.app/
- keyboard hero - https://codepen.io/evilpaper/pen/dyyZjLQ
+ 1) this awesoem website - https://typr-steel.vercel.app/
+ 2) keyboard hero - https://codepen.io/evilpaper/pen/dyyZjLQ
  
