@@ -1,4 +1,4 @@
-const Words = ["fuction", "int", "boolen","String", "void", "which", "nothing", "var", "namespace", "char", "switch", "false", "true", "count", "private", "values"]
+const Words = ["function", "int", "boolean","String", "void", "which", "nothing", "var", "namespace", "char", "switch", "false", "true", "count", "private", "values"]
 var wordSequence = [];
 var Timer = null;
 const timer = document.querySelector(".timer")
